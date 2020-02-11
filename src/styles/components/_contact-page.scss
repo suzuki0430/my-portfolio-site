@@ -1,0 +1,47 @@
+.sns {
+  line-height: 1.5;
+  // padding: 0em 0 0 1.4em;
+  // border-bottom: dashed 1px silver;
+  list-style-type: none!important;
+}
+
+.twitter:before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  // font-family: "Font Awesome 5 Brands";
+  content: "\f099";/*アイコン種類*/
+  // content: "\f007";/*アイコン種類*/
+  position: absolute;
+  left : 5.8em; /*左端からのアイコンまで*/
+  color: rgb(59, 111, 223);
+  // color: #ffb03f; /*アイコン色*/
+}
+
+.github:before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  // font-family: "Font Awesome 5 Brands";
+  content: "\f09b";/*アイコン種類*/
+  // content: "\f007";/*アイコン種類*/
+  position: absolute;
+  left : 5.8em; /*左端からのアイコンまで*/
+  color: rgb(54, 52, 52);
+  // color: #ffb03f; /*アイコン色*/
+}
+
+.box a {
+  margin-left: 20px;
+}
+
+.box a:link {
+  color: blue;
+}
+// .box a:visited {
+//   color: purple;
+// }
+.box a:hover {
+  color: red;
+}
+.box a:active {
+  color: yellow;
+}

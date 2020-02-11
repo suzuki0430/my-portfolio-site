@@ -1,0 +1,59 @@
+.heading {
+  margin: 30px 0px 20px 0px;
+  font-family: Shadows Into Light,cursive;    
+}
+
+.wrapper {
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  padding: 50px 50px 50px 50px;
+  margin-bottom: 50px;
+}
+
+.box {
+  padding-bottom: 50px;
+}
+
+.box > p {
+  margin-bottom: 25px;
+}
+
+.box > h2 {
+  display: inline-block; //inlineだめ
+  margin: 0 0 10px 0;
+  font-family: Shadows Into Light,cursive;  
+  background: linear-gradient(transparent 50%, yellow 50%);
+}
+
+
+.box > ul {
+  // border: solid 2px #ffb03f;
+  padding: 0 0.5em;
+  position: relative;
+}
+
+.box > ul li {
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.4em;
+  border-bottom: dashed 1px silver;
+  list-style-type: none!important;
+}
+
+.box > ul li:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  // font-family: "Font Awesome 5 Brands";
+  content: "\f138";/*アイコン種類*/
+  // content: "\f007";/*アイコン種類*/
+  position: absolute;
+  left : 0.5em; /*左端からのアイコンまで*/
+  color: #ffb03f; /*アイコン色*/
+}
+
+.box > ul li:last-of-type {
+  border-bottom: none;
+}
+
+.box6 {
+  padding-bottom: 0;
+}

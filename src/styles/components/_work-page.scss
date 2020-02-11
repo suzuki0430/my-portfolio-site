@@ -1,0 +1,47 @@
+.card {
+  // padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.card__title {
+  font-size: 24px;
+  margin: 10px 0 0 10px;
+}
+
+.card__lead {
+  margin: 10px 0 10px 10px;
+}
+
+.card__title {
+  line-height: 1.5;
+  padding: 0em 0 0 1.4em;
+  // border-bottom: dashed 1px silver;
+  list-style-type: none!important;
+}
+
+.card__title:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  // font-family: "Font Awesome 5 Brands";
+  content: "\f0c1";/*アイコン種類*/
+  // content: "\f007";/*アイコン種類*/
+  position: absolute;
+  left : 0.5em; /*左端からのアイコンまで*/
+  color: rgb(59, 111, 223);
+  // color: #ffb03f; /*アイコン色*/
+}
+
+.card__title a {
+  color: blue;
+}
+// .card__title a:visited {
+//   color: purple;
+// }
+.card__title a:hover {
+  color: red;
+}
+.card__title a:active {
+  color: yellow;
+}
+
+

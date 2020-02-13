@@ -57,3 +57,27 @@
 .box6 {
   padding-bottom: 0;
 }
+
+.profile_pic {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.profile_pic img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  box-shadow: 0 0 8px gray;
+}
+.profile_pic:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+@media (max-width: 540px) {
+  .profile_pic img {
+    width: 220px;
+    height: auto;
+  }
+}

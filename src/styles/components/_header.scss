@@ -17,17 +17,46 @@ header {
   align-items: center;
   justify-content: space-around;
   margin-top: 50px;
+  font-family: Shadows Into Light,cursive;
 }
 
-header {
-  // margin: 30px 0px 20px 0px;
-  font-family: Shadows Into Light,cursive;    
+.nav {
+  top: 0;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
 }
-
 
 .nav > a {
+  border-radius: 0.5em;
+  margin:0 5px;
   font-size: 24px;
-  margin:0 30px;
+  // margin:0 30px;
   color: black;
   justify-content: flex-end;
+  background: rgba(0,0,0,0.1);
+  border: solid 0.5px gray;
+  padding: 10px 30px;
+  transition: all 0.5s;
+  width: 120px;
+}
+
+.nav > a:hover {
+  background: rgba(0,0,0,0.2);
+}
+
+.nav > .is-active {
+  background: rgba(0,0,0,0.2);
+}
+
+.fixed-nav .nav {
+  position: fixed;
+  // box-shadow: 0 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 540px) {
+  .nav > a {
+    width: 150px;
+    text-align: center;
+  }
 }

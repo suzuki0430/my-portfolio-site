@@ -1,4 +1,6 @@
 import React from 'react';
+import Job from '../images/job.png';
+import Travel from '../images/travel2.jpg'; 
 
 const ProfilePage = () => (
   <div>
@@ -35,6 +37,10 @@ const ProfilePage = () => (
           <li>2020年2月: ポートフォリオ2作目(本サイト)作成</li>
         </ul>
       </div>
+      <div className="profile_pic">
+        <img src={Job} height="280px"/>
+        <p>セミナー司会中</p>
+      </div>
       <div className="box box3">
         <h2>Skills</h2>
         <ul>
@@ -50,9 +56,10 @@ const ProfilePage = () => (
       <div className="box box4">
         <h2>Study materials</h2>
         <ul>
-          <li>テックアカデミー　フロントエンドコース(HTML/CSS/jQuery/BootStrap/Vue.js)</li>
+          <li>Tech Academy Frontend course (HTML/CSS/jQuery/BootStrap/Vue.js)</li>
           <li>"JavaScript30" by Wes Bos</li>
-          <li>Udemy "The complete React Developer Course" by Andrew Mead</li>
+          <li>"What The Flexbox?!" by Wes Bos</li>
+          <li>"The complete React Developer Course (w/ Hooks and Redux)" by Andrew Mead</li>
         </ul>
       </div>
       <div className="box box5">
@@ -63,6 +70,10 @@ const ProfilePage = () => (
           <li>UFOキャッチャー</li>
           <li>ガンプラ制作</li>
         </ul>
+      </div>
+      <div className="profile_pic">
+        <img src={Travel} height="280px"/>
+        <p>ニュージーランド旅行初日</p>
       </div>
       <div className="box box6">
         <h2>Abilities</h2>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Job from '../images/job.png';
-import Travel from '../images/travel2.jpg'; 
+import Travel from '../images/travel2.jpg';
 
 const ProfilePage = () => (
   <div>
@@ -60,6 +60,7 @@ const ProfilePage = () => (
           <li>"JavaScript30" by Wes Bos</li>
           <li>"What The Flexbox?!" by Wes Bos</li>
           <li>"The complete React Developer Course (w/ Hooks and Redux)" by Andrew Mead</li>
+          <li>"Modern React with Redux" by Stephen Grider</li>
         </ul>
       </div>
       <div className="box box5">

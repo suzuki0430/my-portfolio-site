@@ -11,7 +11,7 @@ const WorkPage = (props) => (
     <div className="wrapper">
       <Portfolio
         img={SalonSite}
-        url="http://olivemarmot75.sakura.ne.jp/"
+        url="https://salon-site-portfolio.herokuapp.com/"
         title="美容室サイト"
         lead="React/Reduxを使い、美容室サイトを作成。"
       />

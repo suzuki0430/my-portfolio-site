@@ -1,7 +1,7 @@
-import React from 'react';
-import TwitterTimeline from 'react-twitter-embedded-timeline';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import React from "react";
+import TwitterTimeline from "react-twitter-embedded-timeline";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ContactPage = () => (
   <div>
@@ -13,7 +13,9 @@ const ContactPage = () => (
         <FontAwesomeIcon icon={faTwitter} />
         <h2 className="sns twitter">Twitter</h2>
         <div className="sns_link">
-          <a href="https://twitter.com/suzuki0430">https://twitter.com/suzuki0430</a>
+          <a href="https://twitter.com/suzuki0430">
+            https://twitter.com/suzuki0430
+          </a>
         </div>
         <div className="twitter_timeline">
           <TwitterTimeline
@@ -30,7 +32,9 @@ const ContactPage = () => (
         <FontAwesomeIcon icon={faGithub} />
         <h2 className="sns github">GitHub</h2>
         <div className="sns_link">
-          <a href="https://github.com/suzuki0430">https://github.com/suzuki0430</a>
+          <a href="https://github.com/suzuki0430">
+            https://github.com/suzuki0430
+          </a>
         </div>
       </div>
     </div>

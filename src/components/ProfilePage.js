@@ -1,6 +1,6 @@
-import React from 'react';
-import Job from '../images/job.png';
-import Travel from '../images/travel2.jpg';
+import React from "react";
+import Job from "../images/job.png";
+import Travel from "../images/travel2.jpg";
 
 const ProfilePage = () => (
   <div>
@@ -12,16 +12,19 @@ const ProfilePage = () => (
       <div className="box box1">
         <h2>Introduction</h2>
         <p>フロントエンドエンジニアへの転職活動を行っている鈴木と申します。</p>
-        <p>東京生まれ東京育ち東京在住で、現在は輸入技術商社で約4年間技術営業として働いています。</p>
         <p>
-          顧客の要望をヒアリングし、取扱の海外製品の中から最適な提案をするというところに現職の魅力を感じていますが、<br/>
+          東京生まれ東京育ち東京在住で、現在は輸入技術商社で約4年間技術営業として働いています。
+        </p>
+        <p>
+          顧客の要望をヒアリングし、取扱の海外製品の中から最適な提案をするというところに現職の魅力を感じていますが、
+          <br />
           要望によっては開発元の海外パートナの方針にそくわず、顧客要望を満たせないことがありました。
         </p>
         <p>
           そのような体験をするたび、ソフトウェアのインターフェースがこうだったら…こんな機能があれば…と思うことが多くなりました。
         </p>
         <p>
-          顧客の要望に沿ったものを自分の手で作りたいという思いが日に日に強くなり、エンジニアを目指すようになりました。      
+          顧客の要望に沿ったものを自分の手で作りたいという思いが日に日に強くなり、エンジニアを目指すようになりました。
         </p>
         <p>
           現在はフロントエンド側の学習を行っていますが、バックエンド側にも興味があります。
@@ -38,42 +41,49 @@ const ProfilePage = () => (
         </ul>
       </div>
       <div className="profile_pic">
-        <img src={Job} height="280px"/>
+        <img src={Job} height="280px" />
         <p>セミナー司会中</p>
       </div>
       <div className="box box3">
         <h2>Skills</h2>
         <ul>
           <li>HTML5 / CSS3</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Redux</li>
-          <li>jQuery</li>
-          <li>BootStrap</li>
           <li>SCSS / Sass</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>TypeScript (学習中)</li>
+          <li>PHP/Laravel (学習中)</li>
         </ul>
       </div>
       <div className="box box4">
         <h2>Study materials</h2>
         <ul>
-          <li>Tech Academy Frontend course (HTML/CSS/jQuery/BootStrap/Vue.js)</li>
+          <li>
+            Tech Academy Frontend course (HTML/CSS/jQuery/BootStrap/Vue.js)
+          </li>
           <li>"JavaScript30" by Wes Bos</li>
           <li>"What The Flexbox?!" by Wes Bos</li>
-          <li>"The complete React Developer Course (w/ Hooks and Redux)" by Andrew Mead</li>
+          <li>
+            "The complete React Developer Course (w/ Hooks and Redux)" by Andrew
+            Mead
+          </li>
           <li>"Modern React with Redux" by Stephen Grider</li>
         </ul>
       </div>
       <div className="box box5">
         <h2>Hobbies</h2>
         <ul>
-          <li>一人旅(直近5年: ニュージーランド/ベネルクス/ドイツ/アメリカ西海岸/ロシア/東南アジア1周/台湾1周/北陸1周/淡路島など)</li>
+          <li>
+            一人旅(直近5年:
+            ニュージーランド/ベネルクス/ドイツ/アメリカ西海岸/ロシア/東南アジア1周/台湾1周/北陸1周/淡路島など)
+          </li>
           <li>採点付カラオケ(DAM専門)</li>
           <li>UFOキャッチャー</li>
           <li>ガンプラ制作</li>
         </ul>
       </div>
       <div className="profile_pic">
-        <img src={Travel} height="280px"/>
+        <img src={Travel} height="280px" />
         <p>ニュージーランド旅行初日</p>
       </div>
       <div className="box box6">
